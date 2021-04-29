@@ -15,10 +15,16 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:romanshul/laravel-webhook-client.git"
+        }
+    ],
     "require": {
         "php": "^7.2",
         "illuminate/support": "~5.8.0|^6.0",
-        "spatie/laravel-webhook-client": "^2.0",
+        "spatie/laravel-webhook-client": "2.7.4.1",
         "stripe/stripe-php": "^5.2|^6.0|^7.0"
     },
     "require-dev": {
